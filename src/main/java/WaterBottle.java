@@ -21,7 +21,7 @@ public class WaterBottle {
     }
 
     public int fill() {
-        if(this.volume <= 100){
+        if(this.volume < 100){
             this.volume = 100;
         }
         return this.volume;
